@@ -1,2 +1,2 @@
-# PEC1
- PEC1 - Herramientas HTML y CSS
+# PEC2
+ PEC2 - Herramientas HTML y CSS
