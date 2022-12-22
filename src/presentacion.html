@@ -131,15 +131,17 @@
           <p>
             <!-- <img class="img" alt="tiny-slider" src="images/presentacion/tiny/tiny.png"> -->
           
+            
             <picture>
-              <img class="img"
-              sizes="(max-width: 800px) 100vw, 800px"
-              srcset="
-              images/presentacion/tiny/tinyw_200.png 400w,
-              images/presentacion/tiny/tinyw_399.png 800w"
-              src="images/presentacion/tiny/tinyw_399.png"
-              alt="tiny slider">
-              </picture>
+              <source media="(max-width: 600px)" srcset="images/presentacion/tiny/tiny200.png"/>
+              
+              <source media="(min-width: 601px)" srcset="images/presentacion/tiny/tiny600.png"/>
+             
+              <img class="img" src="images/presentacion/tiny/tiny600.png" alt="tiny slider">
+            </picture>
+            
+            
+        
             </p>
           <p>Es un paquete que implementa un carrusel de imagenes (slider) en pantalla mediante <a class="enlaces"
               href="https://vanilla-js.com/">Vanilla JS</a>, sin utilizar <a class="enlaces"
