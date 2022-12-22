@@ -202,7 +202,8 @@ a.hed2:hover {
 }
 
 .icono {
-  width: 20px;
+  max-width: 60px;
+  margin:auto;
 }
 @keyframes bounceIn {
   0% {
@@ -235,8 +236,26 @@ a.hed2:hover {
   text-shadow: 5px 5px 5px red;
   font-size: xxx-large;
 }
+.parcel {
+  height: 200px;
+   background-image: url("../images/presentacion/parcel/parcel-480w.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+}
+
 /* menu ordenador */
+
 @media all and (min-width: 1000px) {
+
+  .parcel {
+    height: 300px;
+     background-image: url("../images/presentacion/parcel/parcel-1200w.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+  }
+
   .circulo {
     max-width: 300px;
   }
