@@ -57,13 +57,16 @@ header {
   text-align: left;
 }
 
+
 .img-slider {
-  width: 80%;
+  height: 400px;
+  width: auto;
 }
 
 .img-slider2 {
-  width: 60%;
-}
+  height: 400px;
+  width: auto;
+  }
 
 iframe {
   width: 100%;
@@ -310,7 +313,7 @@ a.hed2:hover {
   }
 
   .img-slider2 {
-    height: 400px;
+    height: 500px;
     width: auto;
   }
 
