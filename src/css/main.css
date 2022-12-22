@@ -49,7 +49,7 @@ footer li:last-child:after {
 
 header {
   color: white;
-  background: #000000 url("../images/logo_nuevo.png") center 50% no-repeat;
+  background: #000000 url("../images/logo/small.png") center 50% no-repeat;
   padding: 1em 10%;
   margin: 0;
   background-size: 6em;
@@ -251,6 +251,16 @@ a.hed2:hover {
 
 @media all and (min-width: 1000px) {
 
+  header {
+    color: white;
+    background: #000000 url("../images/logo/big.png") center 50% no-repeat;
+    padding: 1em 10%;
+    margin: 0;
+    background-size: 6em;
+    background-position-x: 90%;
+    text-align: left;
+  }
+
   .parcel {
     height: 300px;
      background-image: url("../images/presentacion/parcel/parcel-1200w.webp");
@@ -318,7 +328,7 @@ a.hed2:hover {
   }
 
   footer {
-    background: #000000 url("../images/logo_nuevo.png") center 50% no-repeat;
+    background: #000000 url("../images/logo/big.png") center 50% no-repeat;
   background-size: 4em;
   background-position-x: 10%;
   }
