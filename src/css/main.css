@@ -100,16 +100,12 @@ nav {
 }
 
 .circulo {
-  max-width: 250px;
+    max-width: 250px;
     clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
     margin-right:2em ;
     margin-bottom: 1em;
-float:left;
-  /* shape-outside: circle();
-  border-radius: 50%;
-  float: left;
-  margin-right: 3em; */
-}
+    float:left;
+  }
 
 ul {
   list-style-type: none;
